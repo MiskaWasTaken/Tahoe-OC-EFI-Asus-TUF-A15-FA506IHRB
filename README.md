@@ -26,5 +26,5 @@ This EFI is designed for the following configuration:
 ## Booting macOS ⛔
 
 To get past the **prohibitory symbol** during boot, you must:
-1. SDDTime patch
+1. SDDTime (patchmerge and ahcpi)
 2. MMIOdevirt
