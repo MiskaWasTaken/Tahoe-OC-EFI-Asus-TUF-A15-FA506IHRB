@@ -28,3 +28,4 @@ This EFI is designed for the following configuration:
 To get past the **prohibitory symbol** during boot, you must:
 1. SDDTime (patchmerge and ahcpi)
 2. MMIOdevirt
+3. Correctly map USB ports via USBToolBox, and update kext for Tahoe using corpnewt/USBMap editor
