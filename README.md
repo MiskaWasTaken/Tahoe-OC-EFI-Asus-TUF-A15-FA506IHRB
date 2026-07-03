@@ -18,7 +18,7 @@ This EFI is designed for the following configuration:
 | **Integrated Graphics** | AMD Radeon (patched with NootedRed) |
 | **RAM** | 16GB DDR4 |
 | **Storage Slot 1** | Stock Samsung NVMe SSD (512GB) |
-| **Wi-Fi & Bluetooth** | Unsupported |
+| **Wi-Fi & Bluetooth** | Unsupported *(disabled, unsupported in macOS)* |
 | **Audio** | Unsupported/AppleHDA (Use OLCP-MOD for AppleALC) |
 | **Ethernet** | RealtekRTL8111 |
 | **SMBIOS** | MacBookPro16,2 |
