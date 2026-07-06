@@ -19,7 +19,7 @@ This EFI is designed for the following configuration:
 | **RAM** | 16GB DDR4 |
 | **Storage Slot 1** | Stock Samsung NVMe SSD (512GB) |
 | **Wi-Fi & Bluetooth** | Unsupported *(disabled, unsupported in macOS)* |
-| **Audio** | Unsupported/AppleHDA (Use OLCP-MOD for AppleALC) |
+| **Audio** | AppleHDA (Use OLCP-MOD for AppleALC) |
 | **Ethernet** | RealtekRTL8111 |
 | **SMBIOS** | MacBookPro16,2 |
 
@@ -29,3 +29,7 @@ To get past the **prohibitory symbol** during boot, you must:
 1. SDDTime (patchmerge and ahcpi)
 2. MMIOdevirt
 3. Correctly map USB ports via USBToolBox, and update kext for Tahoe using corpnewt/USBMap editor
+
+## Known Issues:
+1. Chromium based browsers are stutterly/glitchy/unsuable - NootedRed Issue (unrelated to EFI)
+2. Sleep broken - When lid is closed or laptop goes to sleep mode, it does not wake up/diplay does not turn on - NootedRed Issue (unrelated to EFI)
