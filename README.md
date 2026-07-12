@@ -12,7 +12,7 @@ This EFI is designed for the following configuration:
 ### System Specifications
 | **Component** | **Details** |
 |-------------|------------|
-| **Model** | ASUS TUF A15 |
+| **Model** | ASUS TUF A15 FA506IHRB |
 | **CPU** | AMD Ryzen 5 4600H |
 | **GPU** | NVIDIA GTX 1650 *(disabled, unsupported in macOS)* |
 | **Integrated Graphics** | AMD Radeon (patched with NootedRed) |
